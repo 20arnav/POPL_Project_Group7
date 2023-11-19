@@ -13,10 +13,6 @@ As a part of this project, we have implemented a **Multithreaded File Server** i
   
 Rust offers several features such as memory safety, ownership system, borrowing and lifetimes and safe concurrency without data races, making Rust much safer and easier to maintain in the case of client-server architecture.
 
-## Project Description
-
-The project focuses on developing a client-server interaction system for file servers using the Rust programming language. The server is designed to handle file operations, such as reading, writing, and deleting files, while the client interacts with the server to perform these operations.
-
 ## Software Architecture  
 
 
