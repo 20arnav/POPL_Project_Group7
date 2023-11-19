@@ -7,15 +7,15 @@ Pranav Bajpai - 2021A7PS2062G
 Aryan Nambiar - 2021A7PS2619G  
 Amey Patil - 2021A7PS2740G  
 
-Introduction
+# Introduction
 
 Welcome to the Rust File Server Interaction project! This project is a collaborative effort by Arnav, Aryan, Amey, and Pranav, under the guidance of Professor Kunal Korgaonkar. The aim of this project is to create a robust file server-client system in Rust, highlighting its advantages over a similar implementation in the C programming language.
 
-Project Description
+# Project Description
 
 The project focuses on developing a client-server interaction system for file servers using the Rust programming language. The server is designed to handle file operations, such as reading, writing, and deleting files, while the client interacts with the server to perform these operations.
 
-Features
+# Features
 Secure Communication: The communication between the client and server is secured to prevent unauthorized access.
 
 File Operations: The system supports essential file operations, including reading, writing, and deleting files.
@@ -24,7 +24,7 @@ Concurrency: Rust's ownership system and concurrency features are utilized to en
 
 Error Handling: Comprehensive error handling is implemented to provide meaningful feedback to users in case of issues.
 
-Getting Started
+# Getting Started
 
 To get started with the project, follow these steps:
 
@@ -34,7 +34,7 @@ Follow the instructions in the INSTALL.md file for installation.
 Usage
 Detailed usage instructions can be found in the USAGE.md file. Make sure to review this document to understand how to use the client-server interaction system effectively.
 
-Comparison with C
+# Comparison with C
 
 This project aims to showcase the advantages of Rust over C in the context of file server interactions. Some key points of comparison include:
 
