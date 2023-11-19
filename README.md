@@ -1,7 +1,7 @@
 # POPL_Project_Group7
 Project to fulfil partial requirements of course CSF301 under Professor Dr. Kunal Korgaonkar.
 
-Group Members:
+Group Members:  
 Arnav Goyal - 2021A7PS2596G  
 Pranav Bajpai - 2021A7PS2062G  
 Aryan Nambiar - 2021A7PS2619G  
@@ -9,7 +9,7 @@ Amey Patil - 2021A7PS2740G
 
 Introduction
 
-Welcome to the Rust File Server Interaction project! This project is a collaborative effort by Arnav, Aryan, Amey, and Pranav, under the guidance of Professor Kunal Korgaonkarr. The aim of this project is to create a robust file server interaction system in Rust, highlighting its advantages over a similar implementation in the C programming language.
+Welcome to the Rust File Server Interaction project! This project is a collaborative effort by Arnav, Aryan, Amey, and Pranav, under the guidance of Professor Kunal Korgaonkar. The aim of this project is to create a robust file server-client system in Rust, highlighting its advantages over a similar implementation in the C programming language.
 
 Project Description
 
