@@ -1,4 +1,4 @@
-# POPL_Project_Group7
+# POPL Project Group 7
 Project to fulfil partial requirements of course CSF301 under Professor Dr. Kunal Korgaonkar.
 
 Group Members:  
@@ -35,5 +35,5 @@ Concurrency: Rust's ownership and borrowing system facilitates easy and safe imp
 Error Handling: Rust's Result type and exhaustive pattern matching make error handling more explicit and manageable compared to C's error codes.
 
 ## Acknowledgments
-We would like to express our gratitude to Professor Kunal Korgaonkarr for his guidance and support throughout the development of this project.
+We would like to express our gratitude to Professor Dr. Kunal Korgaonkar for his guidance and support throughout the development of this project.
 
