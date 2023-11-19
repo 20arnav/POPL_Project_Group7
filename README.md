@@ -49,7 +49,6 @@ Rust and C are both programming languages, but they have different design philos
 
 9. **Compatibility and Interoperability:**
    - Rust is designed to be compatible with C, allowing for easy integration with existing C code. Rust can call C functions directly, and C code can call Rust functions through a foreign function interface (FFI).
-
 While Rust offers these advantages, it's important to note that the choice between Rust and C depends on the specific requirements of a project. C remains a powerful language with a long history, and in some contexts, it may still be the preferred choice. Rust, however, addresses many modern programming challenges and provides a safer alternative, especially for systems programming.
 
 
