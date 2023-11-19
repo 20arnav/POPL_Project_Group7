@@ -70,9 +70,15 @@ Here are some of the avenues for future work:
 1. **Integration with Other Rust Ecosystem Tools:**
     - Explore the integration of other Rust tools and libraries, such as Tokio or Actix, to further enhance the system's capabilities, especially in terms of asynchronous networking and handling concurrent connections.
   
-2.      
+2. **Security Enhancements:**
+    - Implement secure communication protocols such as TLS/SSL to encrypt data during transmission between the client and server.
+    - Integrate authentication mechanisms to ensure that only authorized users can access and manipulate files on the server.    
 
-3.
+3. **Cross-Platform Compatibility:**
+    - Ensure that the server application is cross-platform by addressing any platform-specific code. This may involve testing and adapting the codebase for different operating systems.
+  
+4. **Performance Optimization:**
+    - Conduct profiling and performance analysis to identify bottlenecks and areas for improvement. Optimize critical sections of the codebase to enhance overall system performance.
 
 ## Comparison with C
 
