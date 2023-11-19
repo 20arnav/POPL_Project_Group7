@@ -13,8 +13,14 @@ As a part of this project, we have implemented a **Multithreaded File Server** i
   
 Rust offers several features such as memory safety, ownership system, borrowing and lifetimes and safe concurrency without data races, making Rust much safer and easier to maintain in the case of client-server architecture.
 
-## Software Architecture  
-Worker threads constitute a pivotal component of our software architecture, offering several key advantages in the context of a client-server system:
+## Software Architecture 
+Our software architecture adopts the client-server model, a widely recognized paradigm that divides the system into two primary components – the client and the server. This architectural approach is extensively employed in distributed systems, facilitating effective communication and the segregation of responsibilities between the user interface and backend services. Here's a more detailed overview:
+**Components**:  
+**Client**:  
+The client embodies the end-user application or device engaging with the system. This component encompasses the user interface and application logic, bearing the responsibility for rendering and presenting data to the user. Clients initiate requests and interact with the server to fulfill user-oriented functionalities.
+**Server**:  
+The server serves as the centralized system or application responsible for delivering services, resources, or data to clients. It plays a pivotal role in managing business logic, data storage, and processing client requests. By concentrating these responsibilities on the server side, the client-server model promotes a clear separation of concerns.  
+In our client server model of architecture **Worker threads** constitute a pivotal component of our software architecture, offering several key advantages in the context of a client-server system:
 
 1.**Enhanced Concurrency and Parallelism**:  
 Worker threads empower our server to concurrently process multiple client requests, allowing for the simultaneous handling of distinct connections or tasks. This concurrent execution optimally utilizes available resources and significantly enhances overall system efficiency.
