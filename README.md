@@ -24,16 +24,6 @@ Concurrency: Rust's ownership system and concurrency features are utilized to en
 
 Error Handling: Comprehensive error handling is implemented to provide meaningful feedback to users in case of issues.
 
-# Getting Started
-
-To get started with the project, follow these steps:
-
-Clone the repository: git clone https://github.com/your-username/rust-file-server.git
-Navigate to the project directory: cd rust-file-server
-Follow the instructions in the INSTALL.md file for installation.
-Usage
-Detailed usage instructions can be found in the USAGE.md file. Make sure to review this document to understand how to use the client-server interaction system effectively.
-
 # Comparison with C
 
 This project aims to showcase the advantages of Rust over C in the context of file server interactions. Some key points of comparison include:
