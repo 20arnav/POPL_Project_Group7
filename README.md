@@ -14,7 +14,24 @@ As a part of this project, we have implemented a **Multithreaded File Server** i
 Rust offers several features such as memory safety, ownership system, borrowing and lifetimes and safe concurrency without data races, making Rust much safer and easier to maintain in the case of client-server architecture.
 
 ## Software Architecture  
+Worker threads constitute a pivotal component of our software architecture, offering several key advantages in the context of a client-server system:
 
+1.**Enhanced Concurrency and Parallelism**:  
+Worker threads empower our server to concurrently process multiple client requests, allowing for the simultaneous handling of distinct connections or tasks. This concurrent execution optimally utilizes available resources and significantly enhances overall system efficiency.
+
+2.**Scalability Boost**:  
+Worker threads play a vital role in scaling our client-server architecture. As the volume of client connections grows, we can seamlessly incorporate additional worker threads to manage the increasing workload. This scalability feature ensures that our server can adeptly handle a larger number of simultaneous connections without compromising performance.
+
+3.**Elevated Responsiveness**:  
+Through the judicious use of worker threads, our server can adeptly manage numerous requests concurrently. This concurrent approach minimizes client waiting times, leading to a notable improvement in system responsiveness. This is particularly beneficial in scenarios where clients anticipate low-latency responses, contributing to an overall enhanced user experience.
+
+4.**Task Distribution**:  
+Worker threads play a key role in distributing tasks across the available processing resources. In a client-server architecture, each worker thread can be assigned to handle a specific client connection or task, ensuring that tasks are processed in parallel and that the load is evenly distributed.
+
+Our codebase is structured around the principles of RESTful Architecture, a widely adopted design style for developing web services and APIs:
+
+**RESTful Architecture**:  
+Representational State Transfer (REST) embodies an architectural approach that leverages standard HTTP methods for seamless communication. Within this framework, RESTful services operate in a stateless manner, interacting with resources identified by well-defined URLs. This design philosophy not only aligns with industry best practices but also facilitates the creation of scalable, interoperable, and easily maintainable web services and APIs.
 
 ## POPL Aspects
 Rust and C are both programming languages, but they have different design philosophies and features. Here are some advantages of Rust over C:
