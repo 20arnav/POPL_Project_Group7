@@ -7,9 +7,11 @@ Pranav Bajpai - 2021A7PS2062G
 Aryan Nambiar - 2021A7PS2619G  
 Amey Patil - 2021A7PS2740G  
 
-## Introduction
+## Problem Statement
 
-Welcome to the Rust File Server Interaction project! This project is a collaborative effort by Arnav, Aryan, Amey, and Pranav, under the guidance of Professor Kunal Korgaonkar. The aim of this project is to create a robust file server-client system in Rust, highlighting its advantages over a similar implementation in the C programming language.
+As a part of this project, we have implemented **Multithreaded File Server** in Rust and use its features to overcome problems generally encountered in C based client-server architecture such as Buffer Overflow Attack, Dangling Pointer Vulnerability, Size of Code and Concurrency advantages.  
+Rust offers several features such as memory safety, ownership system, borrowing and lifetimes and safe concurreny without data races which makes Rust much safer and easier to maintain in case of client-server architecture.  
+This project is a collaborative effort by Arnav, Aryan, Amey, and Pranav, under the guidance of Professor Kunal Korgaonkar.
 
 ## Project Description
 
