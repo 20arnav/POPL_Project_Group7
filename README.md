@@ -16,6 +16,9 @@ Rust offers several features such as memory safety, ownership system, borrowing 
 
 The project focuses on developing a client-server interaction system for file servers using the Rust programming language. The server is designed to handle file operations, such as reading, writing, and deleting files, while the client interacts with the server to perform these operations.
 
+## Software Architecture  
+
+
 ## Features
 Secure Communication: The communication between the client and server is secured to prevent unauthorized access.
 
