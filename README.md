@@ -51,16 +51,6 @@ Rust and C are both programming languages, but they have different design philos
    - Rust is designed to be compatible with C, allowing for easy integration with existing C code. Rust can call C functions directly, and C code can call Rust functions through a foreign function interface (FFI).
 While Rust offers these advantages, it's important to note that the choice between Rust and C depends on the specific requirements of a project. C remains a powerful language with a long history, and in some contexts, it may still be the preferred choice. Rust, however, addresses many modern programming challenges and provides a safer alternative, especially for systems programming.
 
-
-## Features
-Secure Communication: The communication between the client and server is secured to prevent unauthorized access.
-
-File Operations: The system supports essential file operations, including reading, writing, and deleting files.
-
-Concurrency: Rust's ownership system and concurrency features are utilized to ensure efficient and safe concurrent access to the server.
-
-Error Handling: Comprehensive error handling is implemented to provide meaningful feedback to users in case of issues.
-
 ## Comparison with C
 
 This project aims to showcase the advantages of Rust over C in the context of file server interactions. Some key points of comparison include:
