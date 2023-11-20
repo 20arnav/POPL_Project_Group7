@@ -1,6 +1,6 @@
 We have split the project as follows:
 
-Arnav Goyal - Prepared the README file, worked on C code and prepared the slides for buffer overflow attack.
+Arnav Goyal - Prepared the README file, worked on C code and prepared the slides for advantages over C.
 
 Pranav Bajpai - Worked on the rust code and the results folder.
 
