@@ -42,7 +42,8 @@ Worker threads play a key role in distributing tasks across the available proces
 
 Our codebase is structured around the principles of RESTful Architecture, a widely adopted design style for developing web services and APIs:
 
-<img src="model_image.jpeg" alt="Image" width="300"/>    
+<img src="model_image.jpeg" alt="Image" width="300"/>  
+
 **RESTful Architecture**:  
 Representational State Transfer (REST) embodies an architectural approach that leverages standard HTTP methods for seamless communication. Within this framework, RESTful services operate in a stateless manner, interacting with resources identified by well-defined URLs. This design philosophy not only aligns with industry best practices but also facilitates the creation of scalable, interoperable, and easily maintainable web services and APIs.
 
