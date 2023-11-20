@@ -97,7 +97,7 @@ Here are some of the avenues for future work:
 ## Results
 
 ## Advanctages of rust over C  
-Please [Visit my website](doc/Advantages_Over_C.pdf) to find the advantages of using rust over C for a client server architecture.
+Please [Click Here](doc/Advantages_Over_C.pdf) to find the advantages of using rust over C for a client server architecture.
 
 ## Acknowledgments
 We would like to express our gratitude to Professor Dr. Kunal Korgaonkar for his guidance and support throughout the development of this project.
