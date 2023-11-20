@@ -4,6 +4,6 @@ Arnav Goyal - Prepared the README file, worked on C code and prepared the slides
 
 Pranav Bajpai - Worked on the rust code and the results folder.
 
-Aryan Nambiar - Worked on the rust code, prepared slides for concurreny comparison.
+Aryan Nambiar - Worked on the rust code, prepared slides for concurrency comparison.
 
 Amey Patil - Worked on the C code, prepared slides for dangling pointer vulnerabilities.
