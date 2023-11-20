@@ -78,6 +78,9 @@ Rust and C are both programming languages, but they have different design philos
    - Rust is designed to be compatible with C, allowing for easy integration with existing C code. Rust can call C functions directly, and C code can call Rust functions through a foreign function interface (FFI).
 While Rust offers these advantages, it's important to note that the choice between Rust and C depends on the specific requirements of a project. C remains a powerful language with a long history, and in some contexts, it may still be the preferred choice. Rust, however, addresses many modern programming challenges and provides a safer alternative, especially for systems programming.
 
+## Results
+Please [click here](results/) to find the results obtained after running the code.
+
 ## Potential for future work
 Here are some of the avenues for future work:
 
@@ -95,7 +98,7 @@ Here are some of the avenues for future work:
     - Conduct profiling and performance analysis to identify bottlenecks and areas for improvement. Optimize critical sections of the codebase to enhance overall system performance.
 
 ## Advantages of Rust over C  
-Please [Click Here](doc/Advantages_Over_C.pdf) to find the advantages of using Rust over C for a client server architecture.
+Please [click here](doc/Advantages_Over_C.pdf) to find the advantages of using Rust over C for a client server architecture.
 
 ## How to Run the Code  
 Step 1: Running the server: Open new Terminal, Go to server directory and type cargo run and press Enter   
