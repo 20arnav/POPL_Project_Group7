@@ -101,11 +101,12 @@ Here are some of the avenues for future work:
 Please [click here](doc/Advantages_Over_C.pdf) to find the advantages of using Rust over C for a client server architecture.
 
 ## How to Run the Code  
-Step 1: Running the server: Open new Terminal, Go to server directory and type cargo run and press Enter   
-Step 2: Running he client: Open new Terminal, Go to client directory adn type cargo run and follow the instructions given on the terminal  
-While opening the new terminal for client dont delete the existing terminal which we had used to run the server because the server must stay active while the client requests for services.  
+Step 1: Running the server: Open new terminal, navigate to the server directory and run the command `cargo run`.
+Step 2: Running the client: Open new terminal, navigate to the client directory and run the command `cargo run`. After this follow the instructions given on the terminal as required.
 
-Write the name of the file you want the server to read (for example file1.txt) , following which the server will display the contents of file1.txt on the terminal and also acknowledge on receiving the file to be read    
+Note: While opening the new terminal for client don't delete the existing terminal of the server since it must stay active while the client requests its services.
+
+As an Example, write the name of the file you want the server to read (say file1.txt), following which the server will display the contents of file1.txt on the terminal and also acknowledge the client request that it received.
 
 ## Acknowledgments
 We would like to express our gratitude to Professor Dr. Kunal Korgaonkar for his guidance and support throughout the development of this project.
