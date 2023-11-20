@@ -2,10 +2,10 @@
 Project to fulfil partial requirements of course CSF301 under Professor Dr. Kunal Korgaonkar.
 
 Group Members:  
-Arnav Goyal - 2021A7PS2596G  
-Pranav Bajpai - 2021A7PS2062G  
-Aryan Nambiar - 2021A7PS2619G  
-Amey Patil - 2021A7PS2740G  
+Arnav Goyal - 2021A7PS2596G - f20212596@goa.bits-pilani.ac.in
+Pranav Bajpai - 2021A7PS2062G - f20212062@goa.bits-pilani.ac.in  
+Aryan Nambiar - 2021A7PS2619G - f20212619@goa.bits-pilani.ac.in
+Amey Patil - 2021A7PS2740G - f20212740@goa.bits-pilani.ac.in
 
 ## Problem Statement
 
