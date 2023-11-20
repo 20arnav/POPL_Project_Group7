@@ -26,7 +26,7 @@ The client embodies the end-user application or device engaging with the system.
 The server serves as the centralized system or application responsible for delivering services, resources, or data to clients. It plays a pivotal role in managing business logic, data storage, and processing client requests. By concentrating these responsibilities on the server side, the client-server model promotes a clear separation of concerns.    
 
 In our client server model of architecture **Worker threads** constitute a pivotal component of our software architecture, offering several key advantages in the context of a client-server system:  
-![Alt text](Images/worker_thread.jpeg)  
+![Alt text](Images/mtv-server.svg)  
   
 1.**Enhanced Concurrency and Parallelism**:  
 Worker threads empower our server to concurrently process multiple client requests, allowing for the simultaneous handling of distinct connections or tasks. This concurrent execution optimally utilizes available resources and significantly enhances overall system efficiency.
