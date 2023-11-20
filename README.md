@@ -16,7 +16,7 @@ Rust offers several features such as memory safety, ownership system, borrowing 
 ## Software Architecture 
 Our software architecture adopts the client-server model, a widely recognized paradigm that divides the system into two primary components – the **client** and the **server**. This architectural approach is extensively employed in distributed systems, facilitating effective communication and the segregation of responsibilities between the user interface and backend services. Here's a more detailed overview:  
   
-![Client Server Image](Architecture_img.png)  
+![Client Server Image](Images/Architecture_img.png)  
     
 **Components**:<span style="font-size:larger; text-decoration: underline;">  
   
@@ -26,7 +26,7 @@ The client embodies the end-user application or device engaging with the system.
 The server serves as the centralized system or application responsible for delivering services, resources, or data to clients. It plays a pivotal role in managing business logic, data storage, and processing client requests. By concentrating these responsibilities on the server side, the client-server model promotes a clear separation of concerns.    
 
 In our client server model of architecture **Worker threads** constitute a pivotal component of our software architecture, offering several key advantages in the context of a client-server system:  
-![Alt text](worker_thread.jpeg)  
+![Alt text](Images/worker_thread.jpeg)  
   
 1.**Enhanced Concurrency and Parallelism**:  
 Worker threads empower our server to concurrently process multiple client requests, allowing for the simultaneous handling of distinct connections or tasks. This concurrent execution optimally utilizes available resources and significantly enhances overall system efficiency.
@@ -42,7 +42,7 @@ Worker threads play a key role in distributing tasks across the available proces
 
 Our codebase is structured around the principles of RESTful Architecture, a widely adopted design style for developing web services and APIs:
 
-<img src="model_image.jpeg" alt="Image" width="300"/>  
+<img src="Images/model_image.jpeg" alt="Image" width="300"/>  
 
 **RESTful Architecture**:  
 Representational State Transfer (REST) embodies an architectural approach that leverages standard HTTP methods for seamless communication. Within this framework, RESTful services operate in a stateless manner, interacting with resources identified by well-defined URLs. This design philosophy not only aligns with industry best practices but also facilitates the creation of scalable, interoperable, and easily maintainable web services and APIs.
