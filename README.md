@@ -94,15 +94,10 @@ Here are some of the avenues for future work:
 4. **Performance Optimization:**
     - Conduct profiling and performance analysis to identify bottlenecks and areas for improvement. Optimize critical sections of the codebase to enhance overall system performance.
 
-## Comparison with C
+## Results
 
-This project aims to showcase the advantages of Rust over C in the context of file server interactions. Some key points of comparison include:
-
-Memory Safety: Rust's ownership system helps prevent common memory-related issues, providing a safer environment compared to C.
-
-Concurrency: Rust's ownership and borrowing system facilitates easy and safe implementation of concurrency, enhancing performance without sacrificing safety.
-
-Error Handling: Rust's Result type and exhaustive pattern matching make error handling more explicit and manageable compared to C's error codes.
+## Advanctages of rust over C  
+Please [Click Here](doc/Advantages_Over_C.pdf] to find the advantages of using rust over C for a client server architecture.
 
 ## Acknowledgments
 We would like to express our gratitude to Professor Dr. Kunal Korgaonkar for his guidance and support throughout the development of this project.
