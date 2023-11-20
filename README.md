@@ -28,16 +28,16 @@ The server serves as the centralized system or application responsible for deliv
 In our client server model of architecture **Worker threads** constitute a pivotal component of our software architecture, offering several key advantages in the context of a client-server system:  
 ![Alt text](Images/mt-server.svg)  
   
-1.**Enhanced Concurrency and Parallelism**:  
+1. **Enhanced Concurrency and Parallelism**:  
 Worker threads empower our server to concurrently process multiple client requests, allowing for the simultaneous handling of distinct connections or tasks. This concurrent execution optimally utilizes available resources and significantly enhances overall system efficiency.
 
-2.**Scalability Boost**:  
+2. **Scalability Boost**:  
 Worker threads play a vital role in scaling our client-server architecture. As the volume of client connections grows, we can seamlessly incorporate additional worker threads to manage the increasing workload. This scalability feature ensures that our server can adeptly handle a larger number of simultaneous connections without compromising performance.
 
-3.**Elevated Responsiveness**:  
+3. **Elevated Responsiveness**:  
 Through the judicious use of worker threads, our server can adeptly manage numerous requests concurrently. This concurrent approach minimizes client waiting times, leading to a notable improvement in system responsiveness. This is particularly beneficial in scenarios where clients anticipate low-latency responses, contributing to an overall enhanced user experience.
 
-4.**Task Distribution**:  
+4. **Task Distribution**:  
 Worker threads play a key role in distributing tasks across the available processing resources. In a client-server architecture, each worker thread can be assigned to handle a specific client connection or task, ensuring that tasks are processed in parallel and that the load is evenly distributed.
 
 Our codebase is structured around the principles of RESTful Architecture, a widely adopted design style for developing web services and APIs:
@@ -67,15 +67,10 @@ Rust and C are both programming languages, but they have different design philos
 
 6. **Modern Language Features:**
    - Rust includes modern programming language features, such as pattern matching, algebraic data types, and traits (similar to interfaces in other languages). These features contribute to more expressive and readable code.
-
-7. **Tooling and Package Management:**
-   - Cargo, Rust's package manager, simplifies dependency management and project build processes. It also encourages standardized project layouts and makes it easy to build, test, and package Rust projects.
-
-8. **No Undefined Behavior by Default:**
+     
+7. **No Undefined Behavior by Default:**
    - Rust aims to eliminate undefined behavior by default. This is achieved through the ownership system, bounds checking, and other safety features. In C, undefined behavior can lead to unpredictable results and security vulnerabilities.
 
-9. **Compatibility and Interoperability:**
-   - Rust is designed to be compatible with C, allowing for easy integration with existing C code. Rust can call C functions directly, and C code can call Rust functions through a foreign function interface (FFI).
 While Rust offers these advantages, it's important to note that the choice between Rust and C depends on the specific requirements of a project. C remains a powerful language with a long history, and in some contexts, it may still be the preferred choice. Rust, however, addresses many modern programming challenges and provides a safer alternative, especially for systems programming.
 
 ## Results
@@ -93,9 +88,6 @@ Here are some of the avenues for future work:
 
 3. **Cross-Platform Compatibility:**
     - Ensure that the server application is cross-platform by addressing any platform-specific code. This may involve testing and adapting the codebase for different operating systems.
-  
-4. **Performance Optimization:**
-    - Conduct profiling and performance analysis to identify bottlenecks and areas for improvement. Optimize critical sections of the codebase to enhance overall system performance.
 
 ## Advantages of Rust over C  
 Please [click here](doc/Advantages_Over_C.pdf) to find the advantages of using Rust over C for a client server architecture.
