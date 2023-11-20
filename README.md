@@ -99,6 +99,10 @@ Here are some of the avenues for future work:
 ## Advanctages of Rust over C  
 Please [Click Here](doc/Advantages_Over_C.pdf) to find the advantages of using Rust over C for a client server architecture.
 
+## How to Run the Code  
+Step 1: Running the server: Open new Terminal, Go to server directory and type cargo run and press Enter   
+Step 2: Running he client: Open new Terminal, Go to client directory adn type cargo run and follow the instructions given on the terminal
+
 ## Acknowledgments
 We would like to express our gratitude to Professor Dr. Kunal Korgaonkar for his guidance and support throughout the development of this project.
 
