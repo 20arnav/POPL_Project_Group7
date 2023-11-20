@@ -94,8 +94,6 @@ Here are some of the avenues for future work:
 4. **Performance Optimization:**
     - Conduct profiling and performance analysis to identify bottlenecks and areas for improvement. Optimize critical sections of the codebase to enhance overall system performance.
 
-## Results
-
 ## Advanctages of Rust over C  
 Please [Click Here](doc/Advantages_Over_C.pdf) to find the advantages of using Rust over C for a client server architecture.
 
