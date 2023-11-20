@@ -101,7 +101,8 @@ Please [Click Here](doc/Advantages_Over_C.pdf) to find the advantages of using R
 Step 1: Running the server: Open new Terminal, Go to server directory and type cargo run and press Enter   
 Step 2: Running he client: Open new Terminal, Go to client directory adn type cargo run and follow the instructions given on the terminal  
 While opening the new terminal for client dont delete the existing terminal which we had used to run the server because the server must stay active while the client requests for services.  
-Follow the instructions given in the client execution to continue 
+
+Write the name of the file you want the server to read (for example file1.txt) , following which the server will display the contents of file1.txt on the terminal and also acknowledge on receiving the file to be read    
 
 ## Acknowledgments
 We would like to express our gratitude to Professor Dr. Kunal Korgaonkar for his guidance and support throughout the development of this project.
