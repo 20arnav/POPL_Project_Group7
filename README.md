@@ -14,9 +14,10 @@ As a part of this project, we have implemented a **Multithreaded File Server** i
 Rust offers several features such as memory safety, ownership system, borrowing and lifetimes and safe concurrency without data races, making Rust much safer and easier to maintain in the case of client-server architecture.
 
 ## Software Architecture 
-![Client Server Image](Architecture_img.png)  
 Our software architecture adopts the client-server model, a widely recognized paradigm that divides the system into two primary components – the **client** and the **server**. This architectural approach is extensively employed in distributed systems, facilitating effective communication and the segregation of responsibilities between the user interface and backend services. Here's a more detailed overview:
-**Components**:  
+![Client Server Image](Architecture_img.png)  
+  
+**Components**:    
 **Client**:  
 The client embodies the end-user application or device engaging with the system. This component encompasses the user interface and application logic, bearing the responsibility for rendering and presenting data to the user. Clients initiate requests and interact with the server to fulfill user-oriented functionalities.  
 **Server**:  
