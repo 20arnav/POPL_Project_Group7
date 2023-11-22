@@ -1,5 +1,5 @@
 # POPL Project Group 7
-Project to fulfil partial requirements of course CSF301 under Professor Dr. Kunal Korgaonkar.
+Project to fulfill partial requirements of course CSF301 under Professor Dr. Kunal Korgaonkar.
 
 Group Members:  
 Arnav Goyal - 2021A7PS2596G - f20212596@goa.bits-pilani.ac.in  
